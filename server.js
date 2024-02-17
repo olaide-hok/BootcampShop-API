@@ -19,6 +19,7 @@ app.use(express.json())
 
 // Routes files
 const bootcamps = require('./routes/bootcamps')
+const courses = require('./routes/courses')
 
 // Dev logging middleware (morgan)
 if (process.env.NODE_ENV === 'development') {
@@ -27,6 +28,7 @@ if (process.env.NODE_ENV === 'development') {
 
 // Mount routers
 app.use('/api/v1/bootcamps', bootcamps)
+app.use('/api/v1/courses', courses)
 
 // Express Error handler middlewware
 app.use(errorHandler)
