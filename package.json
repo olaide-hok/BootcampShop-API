@@ -9,14 +9,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/olaide-hok/dev-camper.git"
+        "url": "git+https://github.com/olaide-hok/BootcampShop-API.git"
     },
     "author": "Habeeb Kareem",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/olaide-hok/dev-camper/issues"
+        "url": "https://github.com/olaide-hok/BootcampShop-API/issues"
     },
-    "homepage": "https://github.com/olaide-hok/dev-camper#readme",
+    "homepage": "https://github.com/olaide-hok/BootcampShop-API#readme",
     "dependencies": {
         "bcryptjs": "^2.4.3",
         "colors": "^1.4.0",
