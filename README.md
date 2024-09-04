@@ -34,5 +34,9 @@ node seeder -d
 node seeder -i
 ```
 
+## Endpoints
+
+-   Open BootcampShop_API.postman_collection.md for endpoints documentation.
+
 -   Version: 1.0.0
 -   License: MIT
